@@ -1,1 +1,12 @@
 @import "tailwindcss";
+@layer utilities {
+    .test {
+        @apply w-24 p-5 shadow-md;
+    }
+}
+
+@layer components {
+    .section-title {
+        @apply text-3xl text-blue-800 font-bold mb-2 mx-auto
+    }
+}
